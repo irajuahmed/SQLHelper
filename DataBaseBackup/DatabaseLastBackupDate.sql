@@ -3,4 +3,4 @@ SELECT 	B.name AS Database_Name
         ,ISNULL(CONVERT(CHAR(10), MAX(backup_finish_date), 101), 'NEVER') AS LastBackupDate
 FROM master.dbo.sysdatabases B 
 LEFT OUTER JOIN msdb.dbo.backupset A ON A.database_name = B.name AND A.type = 'D' 
-GROUP BY B.Name ORDER BY B.name
+GROUP BY B.Name ORDER BY B.name;
