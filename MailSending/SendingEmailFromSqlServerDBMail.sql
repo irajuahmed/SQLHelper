@@ -2,7 +2,7 @@
 -- User parameters
 Declare @fromEmail_Address Nvarchar(100) = ''
 Declare @fromEmail_Password Nvarchar(100) = ''
-Declare @toEmail_Address Nvarchar(MAX) = 'raju@gmail.com;rajuahmed@gmail.com'
+Declare @toEmail_Address Nvarchar(MAX) = 'rajuahmed.329@gmail.com'
 Declare @profile_name Nvarchar(100) = 'RajuMailService'
 Declare @account_nameS Nvarchar(100) = 'RajuMailService'
 Declare @mailserver_name Nvarchar(100) = 'smtp.gmail.com' --smtp.live.com	 --smtp.office365.com	
@@ -52,15 +52,6 @@ EXECUTE msdb.dbo.sysmail_add_profileaccount_sp
 		@sequence_number = 1; 
 END
 
-EXECUTE msdb.dbo.sp_send_dbmail 
-@profile_name = @profile_name, 
-@recipients = @toEmail_Address, 
-@Subject = 'Testing DBMail', 
-@Body = 'Hi,<br/>This message is a test for DBMail' ;
-
-
-
-
 
 /*
 Note:
@@ -71,7 +62,8 @@ EXECUTE msdb.dbo.sp_send_dbmail
 @profile_name = @profile_name, 
 @recipients = @toEmail_Address, 
 @Subject = 'Testing DBMail', 
-@Body = 'Hi,<br/>This message is a test for DBMail' 
+@Body = 'Hi,<br/><p style="color:red;">This message is a test for DBMail</p>', 
+@body_format ='HTML'
 GO
 
 
