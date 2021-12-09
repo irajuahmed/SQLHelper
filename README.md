@@ -1,5 +1,5 @@
 # SQLHelper
-All small SQL Project Or Solved Problem Or Example Will be here.
+All small SQL project or solved problem or example will be here.
 
 <h1 align="center">The End</h1>
 
