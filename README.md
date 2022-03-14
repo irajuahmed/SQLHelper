@@ -12,6 +12,6 @@ All small SQL project or solved problem or example will be here.
 
 </td><td>
 
-<p><a href="https://www.buymeacoffee.com/https://www.buymeacoffee.com/mIUyB3X5P"> <img align="left" src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" height="50" width="210" alt="https://www.buymeacoffee.com/mIUyB3X5P" /></a></p>
+<p><a href="https://www.buymeacoffee.com/mIUyB3X5P"> <img align="left" src="https://raw.githubusercontent.com/irajuahmed/CommonImageRepoForGithubPurpose/main/Images/BuyMeACoffee/yellow-button.png" height="50" width="210" alt="https://www.buymeacoffee.com/mIUyB3X5P" /></a></p>
 
 </td></tr> </table>
